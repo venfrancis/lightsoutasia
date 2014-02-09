@@ -1,0 +1,59 @@
+/*===============================================
+
+By: Ven Francis
+
+===============================================*/
+/*===============================================
+
+I. FONT IMPORTS
+
+===============================================*/
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,700italic,400,300,700|Oswald:400,700,300);
+@import url('font-awesome.min.css');
+
+/*===============================================
+
+	BASE CONFIGURATION
+
+===============================================*/
+body, h1,h2,h3,h4,h5,h6{					font-family: 'Open Sans', sans-serif;color:#595959;}
+p{											font-size:1.4em;font-weight: 100;}
+
+/*===============================================
+
+	TYPE CONFIGURATION
+
+===============================================*/
+
+
+.lora{										font-family: 'Lora', serif;}
+.oswald{									font-family: 'Oswald', sans-serif;}
+
+/*colors*/
+.highlighted{								color:#E45347;}
+
+.fullscreensliderwrapper h3{				font-size: 34px;font-style: italic;color: #fff;text-shadow: 0px 1px 0px #222;}
+
+.fullscreensliderwrapper h1{				text-transform: uppercase;font-size: 72px;color:#fff;text-shadow: 0px 1px 0px #222;}
+
+.second-slide .flyover *{					color:#fff;}
+.second-slide .flyover h2,
+.what-we-do-intro h2{							font-size:48px;font-weight: 100;margin-top:0px;}
+.second-slide .flyover h3,
+.what-we-do-intro h3{							font-size:26px;font-weight: 100;margin-bottom:30px;}
+.second-slide .flyover p {					font-style: italic;}
+
+.about-traits{}
+.about-traits p{font-size:18px;margin-top:30px;}
+
+.third-slide .flyover h2{					text-align: center;text-transform: uppercase;font-size: 22px;font-weight: lighter;margin:0px;}
+
+.team-intro .page-super-title h1{			text-transform: uppercase;font-size: 90px;}
+.team-intro .page-title h3{					text-transform: uppercase;font-size: 26px;font-weight: 600;}
+.team-intro .page-desc p{}
+
+.team-member{}
+.member-meta h4{							text-transform: uppercase;font-size:18px;margin-bottom:0px;}
+.member-meta p{								margin-top:0px;font-size:14px;}
+.member-desc{								margin-top:20px;}
+.member-desc p{								font-size:16px;line-height: 1.4em;font-weight: lighter;}

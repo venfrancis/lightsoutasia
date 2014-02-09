@@ -1,0 +1,96 @@
+/*===============================================
+
+By: Ven Francis
+
+===============================================*/
+
+/*===============================================
+
+  TABLE OF CONTENTS
+
+  I. FONT IMPORTS
+  II. BOOTSTRAP CUSTOMIZATION
+
+
+===============================================*/
+
+/*===============================================
+
+I. FONT IMPORTS
+
+===============================================*/
+
+
+
+
+
+
+/*===============================================
+
+II. BOOTSTRAP CUSTOMIZATION
+
+===============================================*/
+.navbar{background: none;border: none;margin-bottom: 0px;}
+.navbar-nav > li > a{  padding-top: 20px;  padding-bottom: 20px;}
+
+#main-header{
+  background:#fff;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.center-block {  display: block;  margin-left: auto;  margin-right: auto;}
+/*===============================================
+
+I. SLIDE CONFIG
+
+===============================================*/
+.slide{-webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover;  background-size: cover;  width:100%;  position:relative;}
+.diag-overlay{background: transparent url(../img/diagonal-overlay.png) center center;width:100%;opacity:.2;position:absolute;z-index: 0;}
+section{position:relative;}
+
+body{background: #fff url(../img/bg.jpg);height:2000px;overflow-x:hidden;}
+.first-slide{background-image:url(../img/intro-img.jpg);}
+.first-content, .second-content, .third-content{position:relative;  z-index: 1;  margin:0px auto;  display:table; height: 100%;  width: 100%;}
+.fullscreensliderwrapper{display:table-cell;  vertical-align: middle;  width: 100%;  text-align: center;  margin: auto;}
+.second-content{padding: 50px 0px;}
+.first-slide-separator{background:transparent url(../img/first-slide-separator.gif) center center no-repeat;display: block;height:35px;}
+
+
+.second-slide .flyover{background: #FC7C5C url(../img/overlay-noise.png);padding: 50px 0;}
+.fullscreenwrapper{display: block;width: 100%;}
+.flyover{background:#fff;width:100%;padding: 30px 0px;}
+
+.what-we-do-intro{}
+.about-traits{margin-top:30px;}
+
+.team-intro{margin-top:60px;display: block;overflow: hidden;}
+.team-intro .page-title{border-bottom:1px solid #898989;padding-bottom:3px;position:relative;}
+
+.section-title-border-mid-dot{margin-bottom:-18px;width:30px;height: 30px;display:block;background: transparent url(../img/section-title-border-mid-dot.jpg) center center no-repeat;}
+
+.team-members{margin-top:60px;display: block;overflow: hidden;}
+.team-member{margin-bottom:60px;}
+.team-member img{border: 1px solid #222;}
+.member-meta{margin-top:10px;}
+.member-desc{}
+
+
+.anchor{position:absolute;top:-60px;}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+}
