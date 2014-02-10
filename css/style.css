@@ -43,22 +43,32 @@ I. SLIDE CONFIG
 
 ===============================================*/
 
-body 										{background: #f3f6f8;height:2000px;overflow-x:hidden;}
+
+body 										{background: #f3f6f8;overflow-x:hidden;}
+
 
 .slide										{-webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover;  background-size: cover;  width:100%;  position:relative;}
-.diag-overlay								{background: transparent url(../img/diagonal-overlay.png) center center;width:100%;opacity:.2;position:absolute;z-index: 0;}
+
 .fullscreensliderwrapper					{display:table-cell;  vertical-align: middle;  width: 100%;  text-align: center;  margin: auto;}
 .fullscreenwrapper							{display: block;width: 100%;}
 section										{position:relative;}
 
+.diag-overlay								{position:absolute;z-index: 2;background: transparent url(../img/diagonal-overlay.png) center center;width:100%;opacity:.2;}
+
+.intro										{position:absolute;z-index: 3;  margin:0px auto 0px auto;  display:table; height: 100%;  width: 100%;}
+
+.slider										{position:absolute;width:100%;z-index:1;top:0px;left:0px;}
+.slider ul									{margin:0px;padding:0px;}
+
+
 .flyover									{background: #FC7C5C url(../img/overlay-noise.png);padding: 50px 0;}
 .flyover-small								{background:#EEEDEC;width:100%;padding: 30px 0px;}
 
-.first-content, 
+/*.first-content, */
 .second-content, 
-.third-content								{position:relative;  z-index: 1;  margin:0px auto;  display:table; height: 100%;  width: 100%;}
+.third-content								{position:relative;  z-index: 3;  margin:0px auto;  display:table; height: 100%;  width: 100%;}
 
-.first-slide 								{background-image:url(../img/intro-img.jpg);}
+.first-slide 								{background-image: url(../img/intro-img4.jpg);position:relative;overflow:hidden;}
 .first-slide-separator						{background:transparent url(../img/first-slide-separator.gif) center center no-repeat;display: block;height:35px;}
 
 .second-slide .first-content				{padding: 50px 0px;}
@@ -68,7 +78,13 @@ section										{position:relative;}
 .skill-traits								{margin-top:30px;}
 .skills										{background:#fff;padding-top:60px;padding-bottom:60px;}
 
+/*small slides*/
+.slide-small								{height:400px;margin:0px auto;  display:table;  width: 100%;}
+.force-full									{overflow: hidden;display:table-cell;  vertical-align: middle;  width: 100%;  text-align: center;  margin: auto;}
+.lead 										{color:#fff;}
+.img1										{background-image:url(../img/intro-img8.jpg);}
 
+/*team*/
 .team-intro									{margin-top:60px;display: block;overflow: hidden;}
 .team-intro .page-title						{border-bottom:1px solid #898989;padding-bottom:3px;position:relative;}
 

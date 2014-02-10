@@ -19,7 +19,8 @@ $(window).load(function() {
     // theWindow.resize(resizeBg).trigger("resize");
 
     // declare our variables
-    var $window = $(window);
+    var $window = $(window),
+        $document = $(document);
 
     //make the holders 100% height to the viewport
     $('.slide, .diag-overlay').css('height', $window.height());
@@ -31,20 +32,27 @@ $(window).load(function() {
 
     function parallaxScroll() {
         var scrolledY = $window.scrollTop();
-        $('.first-slide').css('background-position', 'center ' + ((scrolledY * 0.3)) + 'px');
+        $('.first-slide, .slide-small').css('background-position-y',  ((scrolledY * 0.3)) + 'px');
     }
 
-    $('.team-member').hover(function() {
-
-        // console.log($(this).find('img').attr('class'));
-        $('.teamHover').prependTo($(this).find('img').parent()).show();
-        // $(this)
-        //     .find('img')
-        //     .parent()
-        //     .prependTo('.teamHover')
-        //     .show('slow');
-
-    }, function() {
-        $(this).find('.teamHover').remove();
+    $('.slider').bxSlider({
+      auto: true,
+      pager:false,
+      controls: false,
+      speed: 1500,
+      adaptiveHeight: true,
+      pause: 5000
     });
+
+    $(document).ready(
+      function() { 
+        $("html").niceScroll({
+            cursorcolor:"#D86548", 
+            autohidemode : "false", 
+            cursorwidth : "5",
+            zindex :"10",
+            cursorborder:"1px solid #EBA18F"
+        });
+      }
+    );
 });
