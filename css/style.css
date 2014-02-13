@@ -64,19 +64,19 @@ section										{position:relative;}
 .flyover									{background: #FC7C5C url(../img/overlay-noise.png);padding: 50px 0;}
 .flyover-small								{background:#EEEDEC;width:100%;padding: 30px 0px;}
 
-/*.first-content, */
-.second-content, 
-.third-content								{position:relative;  z-index: 3;  margin:0px auto;  display:table; height: 100%;  width: 100%;}
+.first-content,
+.second-content,
+.third-content								{padding:60px 0px;position:relative;  z-index: 3;  margin:0px auto;  display:table; height: 100%;  width: 100%;}
 
 .first-slide 								{background-image: url(../img/intro-img4.jpg);position:relative;overflow:hidden;}
 .first-slide-separator						{background:transparent url(../img/first-slide-separator.gif) center center no-repeat;display: block;height:35px;}
 
-.second-slide .first-content				{padding: 50px 0px;}
+/*.second-slide .first-content				{padding: 60px 0px;}*/
 
 .what-we-do-intro							{}
 .about-traits,
 .skill-traits								{margin-top:30px;}
-.skills										{background:#fff;padding-top:60px;padding-bottom:60px;}
+.skills										{background:#fff;/*padding-top:60px;padding-bottom:60px;*/}
 
 /*small slides*/
 .slide-small								{height:400px;margin:0px auto;  display:table;  width: 100%;}
@@ -85,7 +85,7 @@ section										{position:relative;}
 .img1										{background-image:url(../img/intro-img8.jpg);}
 
 /*team*/
-.team-intro									{margin-top:60px;display: block;overflow: hidden;}
+.team-intro									{/*margin-top:60px;*/display: block;overflow: hidden;}
 .team-intro .page-title						{border-bottom:1px solid #898989;padding-bottom:3px;position:relative;}
 
 .section-title-border-mid-dot				{margin-bottom:-18px;width:30px;height: 30px;display:block;background: transparent url(../img/section-title-border-mid-dot.jpg) center center no-repeat;}

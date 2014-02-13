@@ -32,27 +32,15 @@ $(window).load(function() {
 
     function parallaxScroll() {
         var scrolledY = $window.scrollTop();
-        $('.first-slide, .slide-small').css('background-position-y',  ((scrolledY * 0.3)) + 'px');
+        $('.first-slide, .slide-small').css('background-position-y', ((scrolledY * 0.3)) + 'px');
     }
 
-    $('.slider').bxSlider({
-      auto: true,
-      pager:false,
-      controls: false,
-      speed: 1500,
-      adaptiveHeight: true,
-      pause: 5000
-    });
-
-    $(document).ready(
-      function() { 
-        $("html").niceScroll({
-            cursorcolor:"#D86548", 
-            autohidemode : "false", 
-            cursorwidth : "5",
-            zindex :"10",
-            cursorborder:"1px solid #EBA18F"
-        });
-      }
-    );
+    // $('.slider').bxSlider({
+    //     auto: true,
+    //     pager: false,
+    //     controls: false,
+    //     speed: 1500,
+    //     adaptiveHeight: true,
+    //     pause: 5000
+    // });
 });

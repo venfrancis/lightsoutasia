@@ -38,11 +38,13 @@ p											{font-size:1.4em;font-weight: 100;}
 
 .flyover h2,
 .what-we-do-intro h2,
-.skills-intro h2							{font-size:48px;font-weight: 100;margin-top:0px;}
+.skills-intro h2,
+.what-we-offer-intro h2						{font-size:48px;font-weight: 100;margin-top:0px;}
 
 .flyover h3,
 .what-we-do-intro h3,
-.skills-intro h3							{font-size:26px;font-weight: 100;margin-bottom:30px;}
+.skills-intro h3,
+.what-we-offer-intro h3						{font-size:26px;font-weight: 100;margin-bottom:30px;}
 
 .flyover *									{color:#fff;}
 .flyover p 									{font-style: italic;}
@@ -61,3 +63,5 @@ p											{font-size:1.4em;font-weight: 100;}
 .member-meta p								{margin-top:0px;}
 .member-desc								{margin-top:20px;}
 .member-desc p								{font-weight: lighter;}
+
+.serv i		 								{font-size:6em;color:#E45347;font-weight: 100;text-shadow: 1px 1px 1px #222;}
